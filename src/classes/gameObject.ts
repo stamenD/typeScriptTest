@@ -191,7 +191,8 @@ export default class GameObject implements IGameObject  {
   }
   
 
-function checkTouching(area:IGameArea,myRightX:number, myTopY:number, myLeftX:number, myBottomY:number){
+
+  function checkTouching(area:IGameArea,myRightX:number, myTopY:number, myLeftX:number, myBottomY:number){
     //check 
     for(let i=0;i<area.enemy.bombs.length;i++)
     {

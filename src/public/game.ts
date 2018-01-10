@@ -204,7 +204,7 @@ function receiveInfoFromKeyboard()
 
 function updateHeroesPositions()
 {
-    area.hero.update(false,false);
+    area.hero.update(beFirst,false);
     area.hero.draw();
     area.enemy.draw();  
     for(let i = 0;i<11;i++)
