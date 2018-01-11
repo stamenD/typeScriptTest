@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/public/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2015"
+  },
+  "include": [
+    "./src/public/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
